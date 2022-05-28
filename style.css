@@ -1,0 +1,89 @@
+html{
+    background: linear-gradient(to right,blue, lightgreen);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.calculator{
+    /*position:fixed;
+    bottom: 15%;
+    right: 37%;*/
+    position: relative;
+    margin: auto;
+}
+
+.display{
+    background-color: white;
+    height:100px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    font-size: 80px;
+    text-align: right;
+    
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #444444;
+    justify-content: space-around;
+    height: 550px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+.squareButton{
+    color:white;
+    height: 100px;
+    width: 90px;
+    background-color: #999999;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.opButton{
+    color:black;
+    height: 100px;
+    width: 90px;
+    background-color: #ffcd70;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.rectangleButton{
+    color:white;
+    height: 100px;
+    width: 180px;
+    background-color: #999999;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.squareButton:hover{
+    background-color:#646464;
+    background: linear-gradient(to right, #646464,rgb(140, 40, 255))
+}
+
+.opButton:hover{
+    /*background-color:#ff932e;*/
+    background: linear-gradient(to right, #ff932e,rgb(255, 40, 40))
+}
+.rectangleButton:hover{
+    background-color:#646464;
+}
